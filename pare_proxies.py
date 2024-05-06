@@ -15,8 +15,7 @@ port_tuple_02 = ('80', '8080', '8880', '2052', '2082', '2086', '2095')
 
 # 待解析节点
 dict={
-    'godlike_vl':'vless://323f5607-f006-4de1-ad9f-979ebcad7ccf@government.se:443?security=tls&sni=godlike_tunnel.hengda.cloudns.biz&type=ws&path=/vless?ed%3D2048&host=godlike_tunnel.hengda.cloudns.biz&encryption=none#05-godlike_tunnel-ua-vl',
-    'godlike_tr':'trojan://323f5607-f006-4de1-ad9f-979ebcad7ccf@government.se:443?security=tls&sni=godlike_tunnel.hengda.cloudns.biz&type=ws&path=/trojan?ed%3D2048&host=godlike_tunnel.hengda.cloudns.biz#05-godlike_tunnel-ua-tr',    
+    '节点名称':'你的节点信息支持vless和trojan',    
 }
 for vps_name,str in dict.items():
     print('vps_name=',vps_name,',str=',str)
